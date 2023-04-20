@@ -7,6 +7,6 @@ print("the server ipaddr is ", ipaddr)
 
 # Start Flower server
 fl.server.start_server(
-        server_address=f"{ipaddr}:8080",
+        server_address='localhost:8080",
     config=fl.server.ServerConfig(num_rounds=3),
 )                               
